@@ -85,3 +85,6 @@ for i in range(n):
     user_arr.append(x)
 
 print("User entered array:", user_arr)
+
+#Inbuild Function to find the index of a value
+vals.index(10)
