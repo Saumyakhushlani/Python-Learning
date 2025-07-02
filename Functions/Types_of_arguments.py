@@ -63,7 +63,6 @@ student_info("Neha")  # age=18 and city='Unknown' will be used
 
 # 4️⃣ Variable-Length Arguments
 # 🔸 *args → collects extra positional arguments as tuple
-# 🔸 **kwargs → collects extra keyword arguments as dictionary
 
 def show_scores(*scores):
     print("\n4.1 Variable-Length Positional (*args):")
@@ -71,15 +70,6 @@ def show_scores(*scores):
 
 show_scores(85, 90, 75)
 # Output: Scores: (85, 90, 75)
+#Use for loop to iterate in tuple
 
-def show_profile(**details):
-    print("\n4.2 Variable-Length Keyword (**kwargs):")
-    for key, value in details.items():
-        print(f"{key} = {value}")
-
-show_profile(name="Saumya", branch="CSE", year=2)
-# Output:
-# name = Saumya
-# branch = CSE
-# year = 2
 
