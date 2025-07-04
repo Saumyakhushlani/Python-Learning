@@ -17,7 +17,9 @@
 
 # - An object is a real instance created from the class.
 # - It uses the class structure but holds its own unique data.
-# - You can create many objects from one class.
+# - You can create many objects from one class. 
+# - In Python there are some inbuilt class like integer string and we can also create our own classes
+
 
 # 🧠 Think:
 #     Class = Design of a mobile phone
@@ -59,6 +61,7 @@ phone2 = MobilePhone("Apple", "iPhone 13", 69999)      # Object 2
 # ---------------------------------------------------------------------
 
 # For phone1
+# If we want to use a meathord first we have to mention objectname then call the function
 phone1.show_details()         # Output: Samsung Galaxy A14 costs ₹14999
 phone1.call("9876543210")     # Output: Calling 9876543210...
 phone1.send_sms("Hello!")     # Output: Sending message...
