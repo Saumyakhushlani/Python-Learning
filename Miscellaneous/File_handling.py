@@ -11,8 +11,13 @@
 # 1. File name
 # 2. Mode (r = read, w = write, a = append)
 
+#This works in the lastest version
+with open(file, 'r'  , encoding="UTF-8") as f:
+    content = f.read()
+    print(content)
+
 # Example: open file in READ mode
-f = open('myfile.txt', 'r')   # open a file named myfile.txt in read mode
+f = open(file, 'r'  , encoding="UTF-8")   # open a file named myfile.txt in read mode
 print(f)                      # prints file object info (not content)
 
 # To print the entire file content
